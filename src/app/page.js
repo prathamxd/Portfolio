@@ -8,6 +8,7 @@ import myAvatar from "./assets/me.png";
 import countries from "./assets/countries.png";
 import social from "./assets/social.png";
 import design from "./assets/des.png";
+import weather from './assets/weather.png'
 import { useState } from "react";
 
 const Home = () => {
@@ -132,10 +133,46 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap dark:text-gray-200">
+
+          <div className="basis-1/3 flex-1 shadow-lg dark:border">
+              <Image
+                src={weather}
+                className="rounded-lg dark:rounded-none object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+              <div className="flex justify-between items-center p-3 lg:mr-5">
+                <div>
+                  <h1 className="font-semibold mb-1">Weather app</h1>
+                  <div className="font-light text-xs flex gap-2 mb-2">
+                    <p>React</p>
+                    <p>Tailwind CSS</p>
+                    <p>Express.js</p>
+                    <p>API</p>
+                  </div>
+                </div>
+                <div className="flex gap-3 lg:gap-4">
+                  <a
+                    href="https://weather-react-app-ochre.vercel.app/"
+                    target="_blank"
+                  >
+                    <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
+                  </a>
+                  <a
+                    href="https://github.com/Pluffy2217/weather-react-app"
+                    target="_blank"
+                  >
+                    <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
                 src={countries}
-                className="rounded-lg object-cover"
+                className="rounded-lg dark:rounded-none object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -169,7 +206,7 @@ const Home = () => {
             <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
                 src={social}
-                className="rounded-lg object-cover"
+                className="rounded-lg dark:rounded-none object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -199,6 +236,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
+
+            
           </div>
         </section>
       </div>
