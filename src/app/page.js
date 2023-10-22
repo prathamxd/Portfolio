@@ -36,7 +36,7 @@ const Home = () => {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:208b8c2b-2cc2-33c6-8039-2af1817c4773"
+                  href="https://drive.google.com/file/d/1XvlkmP_sp-6dXKnnWr42BLIAAY3ZhHFK/view?usp=share_link"
                   target="_blank"
                 >
                   Resume
