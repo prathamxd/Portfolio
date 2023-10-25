@@ -10,6 +10,7 @@ import social from "./assets/social.png";
 import design from "./assets/des.png";
 import weather from './assets/weather.png'
 import admin from "./assets/admin.png"
+import article from "./assets/article.png"
 import { useState } from "react";
 
 const Home = () => {
@@ -134,6 +135,41 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap dark:text-gray-200">
+
+          <div className="basis-1/3 flex-1 shadow-lg dark:border">
+              <Image
+                src={article}
+                className="rounded-lg dark:rounded-none object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+              <div className="flex justify-between items-center p-3 lg:mr-5">
+                <div>
+                  <h1 className="font-semibold mb-1">AI Article Summarizer</h1>
+                  <div className="font-light text-xs flex gap-2 mb-2">
+                    <p>React</p>
+                    <p>Tailwind CSS</p>
+                    <p>Redux Toolkit</p>
+                    <p>OpenAPI API</p>
+                  </div>
+                </div>
+                <div className="flex gap-3 lg:gap-4">
+                  <a
+                    href="https://ai-article-summarizer-kappa.vercel.app/"
+                    target="_blank"
+                  >
+                    <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
+                  </a>
+                  <a
+                    href="https://github.com/Pluffy2217/ai-article-summarizer"
+                    target="_blank"
+                  >
+                    <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
+                  </a>
+                </div>
+              </div>
+            </div>
 
           <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
