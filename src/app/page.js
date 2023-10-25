@@ -151,7 +151,6 @@ const Home = () => {
                     <p>React</p>
                     <p>Tailwind CSS</p>
                     <p>Redux Toolkit</p>
-                    <p>API</p>
                   </div>
                 </div>
                 <div className="flex gap-3 lg:gap-4">
