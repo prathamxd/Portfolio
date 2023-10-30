@@ -115,6 +115,7 @@ const Home = () => {
                 Development Tools:
               </h4>
               <p className="text-gray-800 py-1 dark:text-gray-200">React.js</p>
+              <p className="text-gray-800 py-1 dark:text-gray-200">Next.js</p>
               <p className="text-gray-800 py-1 dark:text-gray-200">
                 Tailwind CSS
               </p>
