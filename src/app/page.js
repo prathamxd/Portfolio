@@ -192,13 +192,13 @@ const Home = () => {
                 </div>
                 <div className="flex gap-3 lg:gap-4">
                   <a
-                    href="https://ai-article-summarizer-kappa.vercel.app/"
+                    href="https://sumz-six.vercel.app/"
                     target="_blank"
                   >
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/ai-article-summarizer"
+                    href="https://github.com/Pluffy2217/Sumz"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
