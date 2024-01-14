@@ -42,7 +42,7 @@ const Home = () => {
                   href="https://drive.google.com/file/d/1Iq0x-i-Aeblr3h4LA1BQFlXaYv1vM7OZ/view?usp=sharing"
                   target="_blank"
                 >
-                  Resume
+                  Resume 
                 </a>
               </li>
             </ul>
