@@ -8,10 +8,11 @@ import myAvatar from "./assets/me.png";
 import countries from "./assets/countries.png";
 import social from "./assets/social.png";
 import design from "./assets/des.png";
-import weather from './assets/weather.png'
-import admin from "./assets/admin.png"
-import article from "./assets/article.png"
-import travel from "./assets/travel.png"
+import weather from "./assets/weather.png";
+import admin from "./assets/admin.png";
+import article from "./assets/article.png";
+import travel from "./assets/travel.png";
+import cars from "./assets/cars.png";
 import { useState } from "react";
 
 const Home = () => {
@@ -137,9 +138,43 @@ const Home = () => {
           </div>
 
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap dark:text-gray-200">
+            <div className="basis-1/3 flex-1 shadow-lg dark:border">
+              <Image
+                src={cars}
+                className="rounded-lg dark:rounded-none object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+              <div className="flex justify-between items-center p-3 lg:mr-5">
+                <div>
+                  <h1 className="font-semibold mb-1">
+                    Car Rental Showcase App
+                  </h1>
+                  <div className="font-light text-xs flex gap-2 mb-2">
+                    <p>Next.js</p>
+                    <p>Typescript</p>
+                    <p>Tailwind CSS</p>
+                  </div>
+                </div>
+                <div className="flex gap-3 lg:gap-4">
+                  <a
+                    href="https://car-showcase-gules-alpha-77.vercel.app/"
+                    target="_blank"
+                  >
+                    <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
+                  </a>
+                  <a
+                    href="https://github.com/Pluffy2217/car-showcase"
+                    target="_blank"
+                  >
+                    <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
+                  </a>
+                </div>
+              </div>
+            </div>
 
-
-          <div className="basis-1/3 flex-1 shadow-lg dark:border">
+            <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
                 src={travel}
                 className="rounded-lg dark:rounded-none object-cover"
@@ -149,7 +184,9 @@ const Home = () => {
               />
               <div className="flex justify-between items-center p-3 lg:mr-5">
                 <div>
-                  <h1 className="font-semibold mb-1">Travel App Landing Page</h1>
+                  <h1 className="font-semibold mb-1">
+                    Travel App Landing Page
+                  </h1>
                   <div className="font-light text-xs flex gap-2 mb-2">
                     <p>Next.js</p>
                     <p>Typescript</p>
@@ -173,7 +210,7 @@ const Home = () => {
               </div>
             </div>
 
-          <div className="basis-1/3 flex-1 shadow-lg dark:border">
+            <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
                 src={article}
                 className="rounded-lg dark:rounded-none object-cover"
@@ -191,23 +228,17 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="flex gap-3 lg:gap-4">
-                  <a
-                    href="https://sumz-six.vercel.app/"
-                    target="_blank"
-                  >
+                  <a href="https://sumz-six.vercel.app/" target="_blank">
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
-                  <a
-                    href="https://github.com/Pluffy2217/Sumz"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Pluffy2217/Sumz" target="_blank">
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                 </div>
               </div>
             </div>
 
-          <div className="basis-1/3 flex-1 shadow-lg dark:border">
+            <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
                 src={admin}
                 className="rounded-lg dark:rounded-none object-cover"
@@ -217,7 +248,9 @@ const Home = () => {
               />
               <div className="flex justify-between items-center p-3 lg:mr-5">
                 <div>
-                  <h1 className="font-semibold mb-1">Complete Admin Dashboard</h1>
+                  <h1 className="font-semibold mb-1">
+                    Complete Admin Dashboard
+                  </h1>
                   <div className="font-light text-xs flex gap-2 mb-2">
                     <p>React</p>
                     <p>Tailwind CSS</p>
@@ -241,7 +274,7 @@ const Home = () => {
               </div>
             </div>
 
-          <div className="basis-1/3 flex-1 shadow-lg dark:border">
+            <div className="basis-1/3 flex-1 shadow-lg dark:border">
               <Image
                 src={weather}
                 className="rounded-lg dark:rounded-none object-cover"
@@ -343,8 +376,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            
           </div>
         </section>
       </div>
