@@ -70,7 +70,7 @@ const Home = () => {
             >
               <AiFillLinkedin />
             </a>
-            <a href="https://github.com/Pluffy2217" target="_blank">
+            <a href="https://github.com/prathamxd" target="_blank">
               <AiFillGithub />
             </a>
           </div>
@@ -165,7 +165,7 @@ const Home = () => {
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/car-showcase"
+                    href="https://github.com/prathamxd/car-showcase"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
@@ -201,7 +201,7 @@ const Home = () => {
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/travel-landing-page"
+                    href="https://github.com/prathamxd/travel-landing-page"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
@@ -231,7 +231,7 @@ const Home = () => {
                   <a href="https://sumz-six.vercel.app/" target="_blank">
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
-                  <a href="https://github.com/Pluffy2217/Sumz" target="_blank">
+                  <a href="https://github.com/prathamxd/Sumz" target="_blank">
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                 </div>
@@ -265,7 +265,7 @@ const Home = () => {
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/admin-dashboard"
+                    href="https://github.com/prathamxd/admin-dashboard"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
@@ -300,7 +300,7 @@ const Home = () => {
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/weather-react-app"
+                    href="https://github.com/prathamxd/weather-react-app"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
@@ -334,7 +334,7 @@ const Home = () => {
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/REST-Countries"
+                    href="https://github.com/prathamxd/REST-Countries"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
@@ -362,13 +362,13 @@ const Home = () => {
                 </div>
                 <div className="flex gap-3 lg:gap-4">
                   <a
-                    href="https://pluffy2217.github.io/social-media-dashboard/#"
+                    href="https://prathamxd.github.io/social-media-dashboard/#"
                     target="_blank"
                   >
                     <FiExternalLink className="w-5 h-5 lg:w-6 lg:h-6" />
                   </a>
                   <a
-                    href="https://github.com/Pluffy2217/social-media-dashboard"
+                    href="https://github.com/prathamxd/social-media-dashboard"
                     target="_blank"
                   >
                     <AiFillGithub className="w-5 h-5 lg:w-6 lg:h-6" />
