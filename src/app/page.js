@@ -39,7 +39,7 @@ const Home = () => {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/17LBRczVO0T6tUy04D9nd-sMweCRNZhgM/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1fn-NQVa3k5DBVHOc0jcREJsElCqT7Vv5/view?usp=sharing"
                   target="_blank"
                 >
                   Resume
